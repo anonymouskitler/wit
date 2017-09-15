@@ -1,0 +1,3 @@
+export const TEST_NOW = 'TEST_NOW'
+export const FETCH_LEADS = 'FETCH_LEADS'
+export const FETCH_LEADS_SUCCESS = 'FETCH_LEADS_SUCCESS'
