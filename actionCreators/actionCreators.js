@@ -15,3 +15,7 @@ export function fetchLeadsSuccess(leads) {
 export function submitLeadForm() {
   return {type: Actions.SUBMIT_LEAD_FORM}
 }
+
+export function submitLeadFormSucceeded(newLead) {
+  return {type: Actions.SUBMIT_LEAD_FORM_SUCCEEDED, newLead}
+}
